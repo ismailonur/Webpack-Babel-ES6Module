@@ -90,10 +90,23 @@
 /*!*************************!*\
   !*** ./src/js/index.js ***!
   \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log('hello mars');\r\nconsole.log('hello mars');\r\nconsole.log('hello mars');\r\nconsole.log('hello mars');\r\nconsole.log('hello mars');\r\nconsole.log('hello mars');\r\nconsole.log('hello mars');\r\nconsole.log('enesssssssss');\r\n\n\n//# sourceURL=webpack:///./src/js/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib */ \"./src/js/lib.js\");\n\r\n\r\nconst lib = new _lib__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\r\n\r\nconsole.log(lib.sum(1,2,3));\r\nconsole.log(lib.mult(1,2,3,4));\n\n//# sourceURL=webpack:///./src/js/index.js?");
+
+/***/ }),
+
+/***/ "./src/js/lib.js":
+/*!***********************!*\
+  !*** ./src/js/lib.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (class {\r\n\r\n    constructor() {\r\n        this.PI = 789899;\r\n    }\r\n\r\n\r\n    sum(...numbers) {\r\n        return numbers.reduce((number, total) => total + number);\r\n    }\r\n\r\n    mult(...numbers) {\r\n        return numbers.reduce((number, total) => total * number);\r\n    }\r\n});\r\n\r\n\n\n//# sourceURL=webpack:///./src/js/lib.js?");
 
 /***/ })
 

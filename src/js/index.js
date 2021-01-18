@@ -1,8 +1,6 @@
-console.log('hello mars');
-console.log('hello mars');
-console.log('hello mars');
-console.log('hello mars');
-console.log('hello mars');
-console.log('hello mars');
-console.log('hello mars');
-console.log('enesssssssss');
+import myLib from './lib';
+
+const lib = new myLib();
+
+console.log(lib.sum(1,2,3));
+console.log(lib.mult(1,2,3,4));
